@@ -1,0 +1,270 @@
+
+@font-face {
+	font-family: "gothamroundedbold";
+	src: url('webfonts/gothamroundedbold.woff') format(woff); 
+}
+@font-face {
+	font-family: gothamroundedbook;
+	src: url('webfonts/gothamRoundedBook.woff') format(woff); 
+}
+@font-face {
+	font-family: gothamRoundedMedium;
+	src: url('webfonts/gothamRoundedMedium') format(woff); 
+}
+body {
+	margin: 0;
+}
+::selection {
+	background: #000;
+	color: yellowgreen;
+}
+.container {
+	width: 90%;
+	margin: auto;
+	max-width: 960;
+}
+/* 01 Header Area CSS Start  */
+.header-area {
+	background-image: url('img/header-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position:0 0;
+	font-family: "gothamroundedbold";
+	overflow: hidden;
+	padding: 30px 0;
+	text-align: center;
+	color: #fff;
+}
+.header-menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.header-menu ul li {
+	display: inline;
+	margin: 0 24px;
+}
+.header-menu ul li a {
+	color:#fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "gothamroundedbold";
+	font-size: 12px;
+	font-weight: 300;
+	padding-bottom: 10px;
+	transition: .4s;
+}
+
+.header-menu ul li a:hover {
+	border-bottom: 1px solid #fff;
+}
+.header-menu img {
+	width: 40px;
+}
+.hero-part {
+	margin-top: 200px;
+}
+.hero-part h1 {
+	text-transform: uppercase;
+	font-size: 32px;
+	letter-spacing: .1em;
+	line-height: 0;
+	font-weight: 300;
+}
+.hero-part p {
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: .2em;
+}
+
+.btn {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	font-size: 10px;
+	padding: 12px 30px;
+	background: #16a085;
+	display: inline-block;
+	margin-top: 20px;
+	letter-spacing: .1em;
+	border-radius: 3px;
+	border: 1px solid transparent;
+	transition: .4s;
+}
+.btn:hover {
+	border: 1px solid  #16a085;
+	background: lightcyan;
+	color: #16a085;
+}
+.header-icon {
+	margin-top: 150px;
+}
+.header-icon a {
+	color: #fff;
+	display: inline-block;
+	padding: 0 6px;
+	transition: .4s;
+}
+.header-icon a:hover {
+	color: #16a085;
+	transform: rotate(45deg);
+}
+/* 02 About Area CSS Start  */
+.getting-area {
+	background: f5f6f7;
+	overflow: hidden;
+	max-height: 430px;
+}
+.text-area {
+	width: 50%;
+	padding: 40px 0;
+}
+.text-area h4 {
+	text-transform: uppercase;
+	color: #16a085;
+	font-size: 12px;
+	letter-spacing: .1em;
+}
+.text-area p {
+	color: #373737;
+	font-size: 12px;
+}
+.col-6 {
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+.col-6 img {
+	width: 100%;
+	margin-top: 50px;
+}
+/* 03 Design Area  */
+.design-area {
+	overflow: hidden;
+}
+/* 04 COmmunity Area */
+.community-area {
+	padding: 90px 0;
+	overflow: hidden;
+}
+.community-iner-con h3 {
+	text-transform: uppercase;
+	color: #373737;
+	font-family: "gothamroundedbold";
+	letter-spacing: 0.2em;
+	font-size: 14px;
+}
+
+.col-4 {
+	width: 31.33%;
+	margin-right: 2%;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+}
+.logo img {
+	width: 40px;
+	margin: auto;
+}
+/* 05 Subscribe Area CSS Start */
+.subscribe-area {
+	background-image: url('img/subscribe-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position:center;
+	padding: 200px 0;
+	text-align: center;
+	overflow: hidden;
+}
+.subscribe-iner-con h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "gothamroundedbold";
+	font-weight: normal;
+	font-size: 14px;
+	letter-spacing: .2em;
+}
+.subscribe-form {
+	max-width: 450px;
+	margin: auto;
+	padding-top: 20px;
+}
+.subscribe-form input[type='email'] {
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 10px 20px;
+	border: none; 
+	border-radius: 3px 0 0 3px;
+	margin-right: 0;
+}
+.subscribe-form button {
+	text-transform: uppercase;
+	background-color: #29b9a6;
+	font-size: 12px;
+	padding: 10px 20px;
+	border: none; 
+	border-radius:  0 3px 3px 0;
+	margin-left: -4px;
+}
+/* 06 Download Area  */
+.download-area {
+	background-color: #f5f7f7;
+	padding: 100px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "gothamroundedbold";
+}
+.download-iner-con h3 {
+	font-weight: 300;
+	font-size: 14px;
+	color: #575454;
+}
+.download-iner-con p {
+	font-weight: 300;
+	font-size: 10px;
+	line-height: 2em;
+	color: #575454;
+}
+.download-form {
+	padding-top: 30px;
+}
+.download-form form input[type="email"],
+.download-form form input[type="text"] {
+	background-color: #16a085;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 3px 0 0 3px;
+}
+.download-form button {
+	background-color: #168a73;
+	padding: 5px 6PX;
+	border-radius:  0  3px 3px 0;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+}
+/* 07 Footer Area CSS Start  */
+.footer-area {
+	padding: 30px 0;
+}
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+}
+.footer-para {
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 1.3em;
+}
+
+.footer-immage img {
+	width: 40px;
+}
+
+@media all and(max-width: 786px) {
+	.col-4 {
+		width: 50%;
+	}
+}
